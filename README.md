@@ -3,8 +3,10 @@ A Student RFID Management System using MERN stack (MongoDB-Express-React-Node)
 
 ![alt text](https://user-images.githubusercontent.com/69466026/198886526-62aa9cf4-9613-4391-80c1-e00f466aeacf.PNG "RFID Security Application")
 
+For writeup of the project then please look [MERN Stack Tutorial – RFID Management System](https://www.donskytech.com/mern-stack-tutorial-rfid-management-system/)    
+
 To install and run the project then do the following steps:  
-You should have installed Node.js in your workstation first.
+You should have installed Node.js in your workstation first and setup your own MongoDB Atlas database cluster.
 
 To run the backend application:  
 1. Open a new terminal
