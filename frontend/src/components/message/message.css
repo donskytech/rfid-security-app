@@ -1,0 +1,18 @@
+.message {
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+  }
+  .message-error {
+    color: #fff;
+    background: #f60820;
+  }
+  .message-info {
+    color: #fff;
+    background: #10c33a;
+  }

@@ -1,0 +1,22 @@
+:root {
+    --clr-grey-10: hsl(210, 36%, 96%);
+    --white: #fff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--clr-grey-10);
+  }

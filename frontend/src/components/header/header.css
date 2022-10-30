@@ -1,0 +1,11 @@
+.projectHeader {
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  padding: 0.5rem;
+  background-color: rgb(187, 224, 248);
+  /* color: var(--white); */
+}
+.projectHeader h1 {
+  font-size: 3rem;
+}

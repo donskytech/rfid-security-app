@@ -1,0 +1,45 @@
+.filter{
+    display: flex;
+    /* background-color: #f49a9a; */
+    background-color: var(--white);
+    margin: 10px 5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.filterWrapper{
+    display: flex;
+
+}
+/* .filterFields{
+} */
+
+.filterLabel{
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+.filterInputs{
+    width: 20rem;
+    padding: 1rem;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #666;
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.btn-container{
+    margin-top: 5px;
+}
+.queryBtn{
+    background-color: rgb(84, 87, 247);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    margin-left: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}

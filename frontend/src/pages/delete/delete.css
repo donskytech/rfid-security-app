@@ -1,0 +1,90 @@
+.managePage {
+  /* height: 100vh; */
+  background: var(--clr-grey-10);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* overflow: scroll; */
+  /* border: 1px solid red; */
+}
+.header{
+  margin: 10px 0;
+}
+
+.editForm {
+  /* flex: 1; */
+  /* max-width: 600px; */
+  background-color: var(--white);
+  border-radius: 10px;
+  border: 1px solid #999;
+  padding: 20px;
+  width: 50vw;
+}
+.fields {
+  display: flex;
+  flex-flow: row wrap;
+}
+.imgColumn {
+  flex: 5;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.imgColumn img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 5px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+}
+.fileUploadLabel {
+  margin-top: 20px;
+}
+.fieldsColumn {
+  flex: 5;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 28px;
+}
+.fieldRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.fieldLabel {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.deleteInputs {
+  font-size: 20px;
+  height: 40px;
+  background-color: rgb(245, 221, 198);
+  outline: none;
+  border-radius: 5px;
+  color: rgb(34, 5, 5);
+  border: 1px solid #d6d6d6;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.bottomButton{
+  width: 200px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  background-color: rgb(59, 59, 234);
+  color: var(--white);
+  margin-left: 5px;
+  border: 0;
+}
